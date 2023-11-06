@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catatan - Flutter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="isiKontener">
+        <div class="bWadah">
+            $date = new DateTime('2021-11-01');<br><br>
+
+            <u>Add 1 month</u><br>
+            $date->add(new DateInterval('P1M'));<br><br>
+
+            <u>Subtract 1 month</u><br>
+            $date->sub(new DateInterval('P1M'));<br><br>
+
+            $tgl = $date->format('Y-m-') . str_pad($iTgl, 2, '0', STR_PAD_LEFT);
+        </div>
+
+    </div>
+</body>
+
+</html>

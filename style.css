@@ -1,0 +1,37 @@
+@font-face {
+  font-family: noto;
+  src: url("../font/NotoSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url("../font/RobotoSlab-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: noto, Arial;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.isiKontener {
+  margin: 20px 30px 0px 30px;
+}
+
+.bWadah {
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #dbdbdb;
+  padding: 10px;
+  margin-bottom: 20px;
+}
